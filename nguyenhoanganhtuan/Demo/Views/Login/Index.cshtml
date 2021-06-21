@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div class="login-form">
+    <h1>@ViewBag.login</h1>
+
+    <form action="/Login/KiemTraDangNhap" method="post">
+
+        <span>
+
+            <input type="text" name="userAcc" class="user" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}">
+        </span>
+        <span>
+            <input type="password" name="Password" class="lock" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+        </span>
+        <div class="submit">
+            <input type="submit" onclick="myFunction()" value="LOGIN" />
+        </div>
+    </form>
+</div>

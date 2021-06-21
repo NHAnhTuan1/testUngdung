@@ -1,0 +1,12 @@
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\TestUngdung.dll.config
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\TestUngdung.dll
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\TestUngdung.pdb
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\EntityFramework.dll
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\EntityFramework.SqlServer.dll
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\EntityFramework.xml
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\bin\Debug\EntityFramework.SqlServer.xml
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\obj\Debug\TestUngdung.csprojAssemblyReference.cache
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\obj\Debug\TestUngdung.csproj.CoreCompileInputs.cache
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\obj\Debug\TestUngdung.csproj.CopyComplete
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\obj\Debug\TestUngdung.dll
+D:\btcuoiki\nguyenhoanganhtuan\TestUngdung\obj\Debug\TestUngdung.pdb

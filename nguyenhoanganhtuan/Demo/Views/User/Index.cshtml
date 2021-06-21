@@ -1,0 +1,58 @@
+﻿@model PagedList.IPagedList<TestUngdung.ModelEF.User>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Thêm người dùng", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                user
+            </th>            <th>
+                password
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Fullname
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.userAcc)
+                </td>                <td>
+                    @Html.DisplayFor(modelItem => item.password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fullname)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.userAcc }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.userAcc })
+                </td>
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</body>
+</html>
